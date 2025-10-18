@@ -7,23 +7,25 @@
     font-size:large;
     font-style:italic;
     text-align:center;
-    }
+}
 h2{
     font-size:medium;
     text-align:center;
-    }
+}
 body{
-    background-color:
-    rgb(255, 164, 61)
-    }
+    background-color:rgb(255, 164, 61);
+}
 table{
+    margin:10px;
     background-color:orangered;
+    border-style:solid;
+    border-width:5px;
     border-radius:5px;
     border-color:white;
     padding:5px;
     color:white;
-    }
-    th{font-weight:bold}
+}
+    th{font-weight:bold; font-style:italic}
 </style>
 </head>
 </css>
