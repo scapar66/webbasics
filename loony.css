@@ -50,10 +50,15 @@ table{
     padding:5px;
     color:white;
 }
-    th{font-weight:bold; font-style:italic}
+    th{
+     background-color:brown
+     font-weight:bold;
+     font-style:italic
+    }
 </style>
 </head>
 </css>
+
 
 
 
