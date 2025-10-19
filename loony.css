@@ -1,9 +1,4 @@
- <!DOCTYPE css>
- <css>
-<head>
- <meta charset="UTF-8">
- <style>
-
+ /*class selectors*/
  .header{
     background-color:red;
     border-style:solid;
@@ -14,6 +9,8 @@
     color:white;
 }
  .leftnavbar{
+    position:absolute;
+    top:110px;
     width:300px;
     height:500px;
     background-color:brown;
@@ -21,12 +18,32 @@
     border-radius:5px;
     border-color:white;
     padding:5px;
+    padding-right:10px;
     color:white;
- }
+}
  .body{
     position:absolute
-        left:20px;
- }
+        left:240px;
+}
+
+/*id selectors*/
+
+/*unvisted link*/
+    a:link{
+        color:yellow;
+    }
+/*visited link*/
+    a:visited{
+        color:orange;
+    }
+/*mouse over link*/
+    a:hover{
+        color:plum;
+    }
+/*selected link*/
+    a:selected{
+        color:palevioletred;
+    }
 
 h1{
     font-size:large;
@@ -58,6 +75,7 @@ table{
 </style>
 </head>
 </css>
+
 
 
 
