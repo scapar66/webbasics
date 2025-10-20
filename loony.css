@@ -16,63 +16,13 @@ h1,h2,h3,body,ul,table{
     padding:5px;
     padding-right:10px;
     color:white;
-}
+ }
  .body{
-    position:absolute
+    position:absolute;
         left:240px;
     margin-top:10px;
-}
-.table{
-    width:550px;
-    border:2px solid white;
-    border-radius:5px;
-    background-color:white;
-    color:white;
-    text-align:center;
-    #tableheadrow{
-        display:table-header-group;
-        background-color:brown;
-    }
-    #tableheadcell_full{
-        display:table-cell;
-        width:200px;
-        border-radius:5px;
-        padding:10px;
-        border-bottom:2px solid white;
-    }
-    #tableheadcell_short{
-        display:table-cell;
-        width:100px;
-        border-radius:5px;
-        padding:10px;
-        border-bottom:2px solid white;
-    }
-    #tablebody{
-        display:table-row-group;
-    }
-    #tablebody_oddrow{
-        display:table-row;
-        background-color:rgb(249, 104, 42);
-        width:660px;
-    }
-    #tablebody_evenrow{
-        display:table-row;
-        background-color:rgb(249, 161, 58);
-        width:660px;
-    }
-    #tablebodycell_full{
-        display:table-cell;
-        border-radius:5px;
-        width:200px;
-        padding:10px;
-    }
-    #tablebodycell_short{
-        display:table-cell;
-        border-radius:5px;
-        width:100px;
-        padding:10px;
-    }
  }
+ 
 
 /*id selectors*/
 
@@ -83,6 +33,57 @@ h1,h2,h3,body,ul,table{
     padding:5px;
     color:white;
 }
+#table{
+    width:550px;
+    border:2px solid white;
+    border-radius:5px;
+    background-color:white;
+    color:white;
+    text-align:center;
+    #tableheadrow{
+        display:table-header-group;
+        background-color:brown;
+    }
+    .tableheadcell_full{
+        display:table-cell;
+        width:200px;
+        border-radius:5px;
+        padding:10px;
+        border-bottom:2px solid white;
+    }
+    .tableheadcell_short{
+        display:table-cell;
+        width:100px;
+        border-radius:5px;
+        padding:10px;
+        border-bottom:2px solid white;
+    }
+    #tablebody{
+        display:table-row-group;
+    }
+    .tablebody_oddrow{
+        display:table-row;
+        background-color:rgb(249, 104, 42);
+        width:660px;
+    }
+    .tablebody_evenrow{
+        display:table-row;
+        background-color:rgb(249, 161, 58);
+        width:660px;
+    }
+    .tablebodycell_full{
+        display:table-cell;
+        border-radius:5px;
+        width:200px;
+        padding:10px;
+    }
+    .tablebodycell_short{
+        display:table-cell;
+        border-radius:5px;
+        width:100px;
+        padding:10px;
+    }
+ }
 #footer{
     position:fixed;
     bottom:10px;
@@ -119,15 +120,9 @@ h2{
     text-align:center;
 }
 h3{
- font-size:large;
- text-align:center;
+    font-size:large;
+    text-align:center;
 }
 body{
     background-color:rgb(255, 164, 61);
 }
-
-
-
-
-
-
