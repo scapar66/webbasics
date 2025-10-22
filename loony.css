@@ -9,7 +9,7 @@ h1,h2,h3,body,ul,table{
     position:absolute;
     top:160px;
     width:200px;
-    height:300px;
+    height:auto;
     background-color:brown;
     border:2px solid white;
     border-radius:5px;
