@@ -22,7 +22,17 @@ h1,h2,h3,body,ul,table{
         left:240px;
     margin-top:10px;
  }
- 
+ .leftpics{
+    position:absolute;
+    top:675px;
+    img{
+        max-width:216px;
+        border:2px solid white;
+        border-radius:5px;
+        display:block;
+        margin-top:10px;
+    }
+
 
 /*id selectors*/
 
@@ -127,3 +137,4 @@ h3{
 body{
     background-color:rgb(255, 164, 61);
 }
+
