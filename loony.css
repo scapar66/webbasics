@@ -95,10 +95,7 @@ h1,h2,h3,body,ul,table{
         padding:10px;
     }
  }
-#footer{
-    text-align:center;
-    color:brown;
-    font-style:italic;
+     
 }
 /*unvisted link*/
     a:link{
@@ -135,5 +132,6 @@ h3{
 body{
     background-color:rgb(255, 164, 61);
 }
+
 
 
