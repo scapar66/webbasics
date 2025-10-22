@@ -46,7 +46,7 @@ h1,h2,h3,body,ul,table{
     color:white;
 }
 #table{
-    width:550px;
+    table-layout:auto;
     border:2px solid white;
     border-radius:5px;
     background-color:white;
@@ -54,21 +54,7 @@ h1,h2,h3,body,ul,table{
     text-align:center;
     #tableheadrow{
         display:table-header-group;
-        background-color:brown;
-    }
-    .tableheadcell_full{
-        display:table-cell;
-        width:200px;
-        border-radius:5px;
-        padding:10px;
-        border-bottom:2px solid white;
-    }
-    .tableheadcell_short{
-        display:table-cell;
-        width:100px;
-        border-radius:5px;
-        padding:10px;
-        border-bottom:2px solid white;
+        background-color:rgb(214, 19, 74);
     }
     #tablebody{
         display:table-row-group;
@@ -76,26 +62,22 @@ h1,h2,h3,body,ul,table{
     .tablebody_oddrow{
         display:table-row;
         background-color:rgb(249, 104, 42);
-        width:660px;
     }
     .tablebody_evenrow{
         display:table-row;
         background-color:rgb(249, 161, 58);
-        width:660px;
     }
-    .tablebodycell_full{
+    .table_cell{
         display:table-cell;
         border-radius:5px;
-        width:200px;
         padding:10px;
     }
-    .tablebodycell_short{
-        display:table-cell;
-        border-radius:5px;
-        width:100px;
-        padding:10px;
-    }
- }
+}
+
+#footer{
+    color:brown;
+    font-style:italic;
+}
      
 }
 /*unvisted link*/
