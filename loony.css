@@ -28,6 +28,7 @@ h1,h2,h3,body,ul,table{
 
 #header{
     background-color:rgb(227, 0, 53);
+    width:100%;
     border:2px solid white;
     border-radius:5px;
     padding:5px;
