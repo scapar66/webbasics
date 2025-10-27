@@ -9,7 +9,7 @@ h1,h2,h3,body,ul,table{
     position:absolute;
     top:160px;
     width:200px;
-    height:auto;
+    height:390px;
     background-color:rgb(214, 19, 74);
     border:2px solid white;
     border-radius:5px;
@@ -19,7 +19,7 @@ h1,h2,h3,body,ul,table{
  }
  .leftpics{
     position:absolute;
-    top:675px;
+    top:565px;
     img{
         max-width:216px;
         border:2px solid white;
@@ -39,10 +39,20 @@ h1,h2,h3,body,ul,table{
         border-radius:5px;
     }
  }
+ .testimony{
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+    height:fit-content;
+    text-align:middle;
+    img{width:216px;}
+}
+
 
 /*id selectors*/
 
 #header{
+    width:auto;
     background-image:url(loony_bg.jpg);
         background-repeat:no-repeat;
         background-size:cover;
@@ -80,6 +90,7 @@ h1,h2,h3,body,ul,table{
         padding:10px;
     }
 }
+
 #footer{
     color:brown;
     font-style:italic;
