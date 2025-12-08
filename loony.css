@@ -1,6 +1,13 @@
 /*full page styling*/
+@font-face {
+    font-family:AHGrotesk;
+    src:url('AlteHaasGroteskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1,h2,h3,body,ul,table{
-    font-family:Helvetica,Arial,sans-serif;
+    font-family:AHGrotesk;
 }
 
 /*class selectors*/
@@ -130,3 +137,4 @@ h3{
 body{
     background-color:rgb(255, 164, 61);
 }
+
